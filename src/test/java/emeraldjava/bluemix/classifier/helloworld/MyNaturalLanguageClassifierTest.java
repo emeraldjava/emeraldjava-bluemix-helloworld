@@ -13,6 +13,7 @@ public class MyNaturalLanguageClassifierTest {
     @Test
     public void testDoSometing() throws Exception {
         naturalLanguageClassifier = new MyNaturalLanguageClassifier();
-        naturalLanguageClassifier.load();
+        naturalLanguageClassifier.list();
+        naturalLanguageClassifier.classify();
     }
 }
